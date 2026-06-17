@@ -1,0 +1,8 @@
+services:
+  eco-bot:
+    build: .
+    restart: always
+    env_file: .env
+    volumes:
+      - ./bot.log:/app/bot.log
+      - ./estado.txt:/app/estado.txt
