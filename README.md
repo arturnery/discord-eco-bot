@@ -204,6 +204,42 @@ discord-eco-bot/
 
 ---
 
+## Como atualizar em produção
+
+O bot roda em um servidor VPS (Oracle Cloud) via Docker. Para aplicar alterações:
+
+**1. Edite os arquivos localmente**
+
+**2. Envie os arquivos alterados para o servidor via SCP**
+
+```bash
+# Exemplo: atualizar bot.py e scraper.py
+scp -i "ssh-key-2026-06-17.key" bot.py scraper.py ubuntu@<IP_DO_SERVIDOR>:~/discord-eco-bot/
+```
+
+**3. Conecte ao servidor via SSH**
+
+```bash
+ssh -i "ssh-key-2026-06-17.key" ubuntu@<IP_DO_SERVIDOR>
+```
+
+**4. Reconstrua e reinicie o container**
+
+```bash
+cd ~/discord-eco-bot
+sudo docker-compose up -d --build
+```
+
+**5. Verifique os logs**
+
+```bash
+sudo docker-compose logs -f
+```
+
+O container anterior é substituído automaticamente, com downtime de poucos segundos.
+
+---
+
 ## Contato
 
 **[SEU NOME]**
