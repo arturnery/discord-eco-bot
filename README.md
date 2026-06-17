@@ -242,7 +242,8 @@ O container anterior é substituído automaticamente, com downtime de poucos seg
 
 ## Contato
 
-**[SEU NOME]**
-- LinkedIn: [ADICIONAR]
-- Email: [ADICIONAR]
-- Portfólio: [ADICIONAR]
+**Artur Matoso Nery**
+- LinkedIn: [linkedin.com/in/artur-matoso-nery-84a4971a9](https://www.linkedin.com/in/artur-matoso-nery-84a4971a9/)
+- GitHub: [github.com/arturnery](https://github.com/arturnery?tab=repositories)
+- Email: arturnery1997@gmail.com
+- Portfólio: em construção
