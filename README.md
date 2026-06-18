@@ -20,15 +20,19 @@ Traders de cripto e forex precisam acompanhar o calendário econômico para ante
 
 > **Agenda diária (07h BRT)**
 
-![Agenda]([ADICIONAR SCREENSHOT DA AGENDA AQUI])
+![Agenda](docs/agenda.png)
 
 > **Alerta pré-evento (15 min antes)**
 
-![Alerta]([ADICIONAR SCREENSHOT DO ALERTA AQUI])
+![Alerta](docs/alerta.png)
 
 > **Resultado com análise de surpresa**
 
-![Resultado]([ADICIONAR SCREENSHOT DO RESULTADO AQUI])
+![Resultado](docs/resultado.png)
+
+> **Legenda**
+
+![Legenda](docs/legenda.png)
 
 ---
 
