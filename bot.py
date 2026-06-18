@@ -535,7 +535,7 @@ async def job_reset_meia_noite():
         resultados_enviados.clear()
         _agenda_marcada = False
         if ESTADO_FILE.exists():
-            ESTADO_FILE.unlink()
+            ESTADO_FILE.write_text("{}")
         logger.info("Estado resetado à meia-noite.")
 
 
