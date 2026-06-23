@@ -22,11 +22,11 @@ Traders de cripto e forex precisam acompanhar o calendário econômico para ante
 
 ![Agenda](docs/agenda.png)
 
-> **Alerta pré-evento (15 min antes)**
+> **Resultado com análise de surpresa**
 
 ![Alerta](docs/alerta.png)
 
-> **Resultado com análise de surpresa**
+> **Alerta pré-evento (15 min antes)**
 
 ![Resultado](docs/resultado.png)
 
